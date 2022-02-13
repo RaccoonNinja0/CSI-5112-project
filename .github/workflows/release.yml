@@ -23,5 +23,5 @@ jobs:
         channel: 'stable' # or: 'beta' or 'master'
     - run: flutter --version
     - run: flutter pub get
-    - run: flutter test
+    #- run: flutter test
     - run: flutter build web
